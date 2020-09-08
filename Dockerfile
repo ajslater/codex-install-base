@@ -1,5 +1,5 @@
 ARG BASE_VERSION
-FROM ajslater/python-alpine:latest
+FROM python:${BASE_VERSION}
 LABEL maintainer="AJ Slater <aj@slater.net>"
 ARG PKG_VERSION
 LABEL version=python${BASE_VERSION}_${PKG_VERSION}
