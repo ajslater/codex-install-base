@@ -12,7 +12,6 @@ RUN echo "**** install codex system wheel building packages ****" && \
    libffi-dev \
    libwebp-dev \
    openssl-dev \
-   rust \
    yaml-dev \
    zlib-dev
 

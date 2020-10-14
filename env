@@ -1,4 +1,4 @@
 REPO=ajslater/codex-install-base
 IMAGE=ajslater/codex-install-base
 BASE_VERSION=3.8.6-alpine3.12
-PKG_VERSION=0.2.0
+PKG_VERSION=0.3.0
