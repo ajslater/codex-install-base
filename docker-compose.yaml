@@ -1,5 +1,5 @@
 version: "3"
 services:
-    codex-install-base:
-        image: ajslater/codex-install-base
-        build: .
+  codex-install-base:
+    image: ajslater/codex-install-base
+    build: .
