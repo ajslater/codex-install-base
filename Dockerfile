@@ -2,7 +2,7 @@ ARG BASE_VERSION
 FROM python:${BASE_VERSION}
 LABEL maintainer="AJ Slater <aj@slater.net>"
 ARG PKG_VERSION
-LABEL version=python${BASE_VERSION}_${PKG_VERSION}
+LABEL version=${VERSION}
 
 RUN echo "**** install codex system wheel building packages ****" && \
  apk add --no-cache \
